@@ -1,0 +1,18 @@
+nav{
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.2);
+    display: flex;
+
+    a{
+    color: yellowgreen;
+    opacity: 1;
+    text-decoration: none;
+    margin: auto;
+    transition: all .2s ease-in-out;
+    }
+
+    a:hover{
+        transform: scale(1.2);
+        color: yellow;
+    }
+}
