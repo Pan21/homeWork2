@@ -6,13 +6,13 @@ function initListeners(){
 }
 
 function initPages(){
-    $.get('../views/nav.html', function(nav){
+    $.get('../../views/nav.html', function(nav){
         $("#nav").html(nav);
         console.log("working")
         initListeners();
     });
 
-    $.get('../views/pages/home.html', function(data){
+    $.get('../../views/pages/home.html', function(data){
         $("#content").html(data);
     });
 }
